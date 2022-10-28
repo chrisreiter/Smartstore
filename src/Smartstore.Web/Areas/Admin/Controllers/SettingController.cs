@@ -568,6 +568,9 @@ namespace Smartstore.Admin.Controllers
                 return View(model);
             }
 
+            if (_privacySettings.CookieInfos == null)
+                _privacySettings.CookieInfos = String.Empty;
+
             // Deserialize
             var ciList = JsonConvert.DeserializeObject<List<CookieInfo>>(_privacySettings.CookieInfos);
 

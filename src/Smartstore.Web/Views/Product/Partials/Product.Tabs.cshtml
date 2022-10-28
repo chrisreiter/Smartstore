@@ -1,4 +1,5 @@
 ﻿@using Smartstore.Web.Models.Catalog
+@using Smartstore.Web.Models.Common;
 
 @model ProductDetailsModel
 
@@ -47,4 +48,45 @@
             <partial name="Product.Reviews" model="Model.ProductReviews" />
         </tab>
     }
-</tabstrip>
+
+ 
+    @{
+        // CR sparepart light
+        //var sparepartStoreLinkZoneHasValues = Display.ZoneHasContent("sparepart_store_link");
+
+        //var sparepartsLight = Html.Raw(Html.Widget("sparepart_store_link")).ToHtmlString();
+
+        //var sparepartsLightHtml = Html.Raw(Html.RenderWidget("sparepart_store_link")).ToHtmlString();
+        //var summaryHtml = Html.RenderWidget("offcanvas_cart_summary").ToHtmlString();
+
+        //if (sparepartsLight.Value != String.Empty && sparepartsLight.Value.Length > 10) //sparepartsLight != "\n\n\n\r\n\r\n\r\n\r\n")
+        //if (sparepartStoreLinkZoneHasValues)
+
+        //new HtmlWidgetInvoker("");
+        //await Html.RenderComponentAsync()
+
+        // ev im widget das tab rendern
+        // oder ein anderes widget rendert eine bool variable-->enable
+        // call action in plugin "~has spare parts(productid)
+
+        //System.Text.StringBuilder sb = new System.Text.StringBuilder();
+        //System.IO.StringWriter writer = new System.IO.StringWriter(sb);
+        //System.Text.Encoding asciiEncoding = System.Text.Encoding.ASCII;
+        //System.Text.Encodings.Web.HtmlEncoder hEncoder = System.Text.Encodings.Web.HtmlEncoder.Default;
+        ////var test = Component.InvokeAsync("sparepart_store_link").Result.ToHtmlString();  //.WriteTo(writer, hEncoder));
+        //var test = Component.InvokeAsync("Administrator.at.ProductLinkerLight.Components.ProductLinkerLightViewComponent").Result.ToHtmlString();  //.WriteTo(writer, hEncoder));
+
+
+        // vorerst immer zeigen mit Anzeige 'keine Ersatzteile verfügbar'
+        // check plugin installed?
+        if (true)
+        {
+            <tab sm-title="@T("Plugins.Administrator.at.ProductLinkerLight.SparePartsLightListTitle")"
+                sm-name="pd-sparepart_link"
+                sm-if="false"
+                sm-selected="false">
+                <zone name="sparepart_store_link" />
+            </tab>
+        }
+     }
+        </tabstrip>

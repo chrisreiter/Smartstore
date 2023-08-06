@@ -1,0 +1,23 @@
+﻿<Language Name="English" IsDefault="false" IsRightToLeft="false">
+    <LocaleResource Name="Plugins.FriendlyName.Administrator.at.DocuflairConnector" AppendRootKey="false">
+        <Value>Product Linker Light</Value>
+    </LocaleResource>
+    <LocaleResource Name="TabTitleConnectionSettingsui">
+        <Value>Settings</Value>
+    </LocaleResource>
+    <LocaleResource Name="featureenablehint">
+        <Value>Feature enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="BaseUrlTargetShop">
+        <Value>Url of the spare part shop</Value>
+    </LocaleResource>
+    <LocaleResource Name="SparePartsLightListTitle">
+        <Value>Spare parts</Value>
+    </LocaleResource>
+    <LocaleResource Name="SparePartsLightLinkTitle">
+        <Value>show product in sparepart shop</Value>
+    </LocaleResource>
+    <LocaleResource Name="SparePartsLightLinkCaption">
+        <Value>sparepart shop</Value>
+    </LocaleResource>
+</Language>

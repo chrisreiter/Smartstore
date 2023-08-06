@@ -1,0 +1,26 @@
+﻿<Language Name="Deutsch" IsDefault="true" IsRightToLeft="false">
+    <LocaleResource Name="Plugins.FriendlyName.Administrator.at.DocuflairConnector" AppendRootKey="false">
+        <Value>Product Linker Light</Value>
+    </LocaleResource>
+    <LocaleResource Name="TabTitleConnectionSettingsui">
+        <Value>Einstellungen</Value>
+    </LocaleResource>
+    <LocaleResource Name="featureenablehint">
+        <Value>Feature aktiv</Value>
+    </LocaleResource>
+    <LocaleResource Name="BaseUrlTargetShop">
+        <Value>Url des Ersatzteileshops</Value>
+    </LocaleResource>
+    <LocaleResource Name="SparePartsLightListTitle">
+        <Value>Ersatzteile</Value>
+    </LocaleResource>
+    <LocaleResource Name="SparePartsLightLinkTitle">
+        <Value>Besuchen Sie useren Ersatzteile Shop</Value>
+    </LocaleResource>
+    <LocaleResource Name="SparePartsLightLinkCaption">
+        <Value>Produkt im Scheppach Ersatzteile Shop öffnen</Value>
+    </LocaleResource>
+    <LocaleResource Name="SparePartsLightNoPartsAvailableCaption">
+        <Value>Für dieses Produkt sind keine Ersatzteile verfügbar</Value>
+    </LocaleResource>
+</Language>

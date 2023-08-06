@@ -1,0 +1,13 @@
+{
+  "$schema": "../module.schema.json",
+  "Author": "Administrator.at",
+  "Group": "Marketing",
+  "SystemName": "Administrator.at.DocuflairConnector",
+  "FriendlyName": "DocuflairConnector",
+  "Description": "Administrator.at DocuflairConnector",
+  "Version": "5.0.4.1",
+  "MinAppVersion": "5.0",
+  "Order": 1,
+  "ResourceRootKey": "Plugins.Administrator.at.DocuflairConnector",
+  "ProjectUrl": ""
+}

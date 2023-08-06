@@ -401,13 +401,14 @@ namespace Smartstore.StripeElements.Controllers
 
                 return Ok();
             }
-            catch (StripeException e)
+            catch (StripeException ex)
             {
-                Logger.Error("Error: {0}", e.Message);
+                Logger.Error(ex);
                 return BadRequest();
             }
-            catch
+            catch (Exception ex)
             {
+                Logger.Error(ex);
                 return StatusCode(500);
             }
         }
